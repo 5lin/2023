@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝网</title>
+    <link rel="stylesheet" href="C:\Users\Lin\Desktop\W WORLD\Code\HTML\login in\style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>淘宝账号登录</h2>
+        <div class="input-box">
+			<img src="https://blog.l50.top/others/zh.png" width="32" height="32" alt="请输入你的手机号"/>
+            <label>
+				手机号
+				<select name="login">
+						<option value="CN">+86中国大陆</option>
+						<option value="USA">+1美国</option>
+						</select>
+			</label>
+            <input type="text"/>
+        </div>
+        <div class="input-box">
+			<img src="https://blog.l50.top/others/pwd.png" width="32" height="32" alt="请输入你收到的验证码"/>
+            <label>验证码</label>
+            <input type="password"/>
+        </div>
+        <div class="btn-box">
+            <a href="https://passport.taobao.com/ac/password_find.htm?spm=a2107.1.0.0.3d6811d9FvQ6AD&from_site=0&lang=zh_CN&app_name=tbTop&tracelog=signin_main_pass">忘记密码?</a>
+            <div>
+                <button type="button" onclick="alert('验证码已发送至您的手机')">获取验证码</button>
+                <button type="button" onclick="alert('正在登录')">登录</button>
+            </div>
+        </div>
+		<input type="checkbox" name="policy" value="policy" /><strong>我已悉知<a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html?spm=a2107.1.0.0.715811d90b8y4D">淘宝网隐私政策</a></strong>
+    </div>
+<script type="text/javascript">
+</script>
+</body>
+</html>
