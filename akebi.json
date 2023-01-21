@@ -1,0 +1,840 @@
+{
+    "current_profile": "default",
+    "profiles": {
+        "default": {
+            "About": {
+                "IsFirstTime": false
+            },
+            "Auto Seelie": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoDestroy": {
+                "DestroySpecialChests": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "AutoLoot": {
+                "AutoPickup": {
+                    "toggled": true,
+                    "value": null
+                },
+                "AutoTreasure": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Chest": true,
+                "Investigate": true,
+                "Others": true,
+                "QuestInteract": true,
+                "UseCustomRange": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "AutoTalk": {
+                "AutoSelectDialog": {
+                    "toggled": false,
+                    "value": null
+                },
+                "CutsceneUSM": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "FastDialog": {
+                    "toggled": true,
+                    "value": null
+                },
+                "TimeSpeedup": 50.0,
+                "ToggleHotkey": 73
+            },
+            "ChestTeleport": {
+                "Key": 38
+            },
+            "CustomTeleports": {
+                "Auto": {
+                    "toggled": false,
+                    "value": null
+                },
+                "DelayTime": 8,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Next": 39,
+                "Previous": 37
+            },
+            "ESP": {
+                "DrawDistance": true,
+                "DrawName": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Filters": {
+                    "Chest": {
+                        "Common Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Crude Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Exquisite Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Luxurious Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Precious Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Remarkable Chest": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Search Point": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Collection": {
+                        "Book": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Book Page": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Geo Sigil": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Quest Interact": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Radiant Spincrystal": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Viewpoint": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Wooden Crate": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Featured": {
+                        "Anemoculus": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Crimson Agate": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Dendroculus": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Electroculus": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Electrogranum": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Fishing Point": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Geoculus": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Item Drops": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Key Sigil": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Lumenspar": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Sacred Seal": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Shrine Of Depth": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Time Trial Challenge": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Living": {
+                        "Avatar Teammate": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Crystal Core": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Monster": {
+                        "Nobushi": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Specter": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Unusual Hilichurl": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    },
+                    "Puzzle": {
+                        "Electro Seelie": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Elemental Monument": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Seelie": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Seelie Lamp": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Small Rock Pile": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Stone Pillar Seal": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Sumeru Puzzles": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Temari": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "The Withering": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Time Trial Challenge Collection": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Torch Puzzle": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        },
+                        "Warming Seelie": {
+                            "color": 4286085240,
+                            "enabled": true,
+                            "hotkey": null
+                        }
+                    }
+                },
+                "FontSize": 35,
+                "GlobalBoxColor": {
+                    "toggled": true,
+                    "value": 4293667305
+                },
+                "GlobalFontColor": {
+                    "toggled": true,
+                    "value": 4293633883
+                },
+                "GlobalLineColor": {
+                    "toggled": true,
+                    "value": 4293963569
+                },
+                "GlobalRectColor": {
+                    "toggled": true,
+                    "value": 4290377016
+                },
+                "MiddleScreenTracer": true,
+                "Range": 200.0
+            },
+            "General": {
+                "MenuKey": 192,
+                "SelectedModule": 1
+            },
+            "GodMode": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "InfiniteStamina": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "PacketReplacement": true
+            },
+            "InteractiveMap": {
+                "CompleteNearestPoint": 39,
+                "DynamicSize": true,
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Filters": {
+                    "Scene3": {
+                        "CrystalCore": true,
+                        "Nobushi": true,
+                        "Specter": true,
+                        "UnusualHilichurl": true
+                    }
+                },
+                "IconSize": 100.0,
+                "RevertLatestCompletion": 37,
+                "SeparatedWindows": false,
+                "ShowCompleted": true,
+                "ShowHDIcons": true
+            },
+            "KillAura": {
+                "DamageMode": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "InstantDeathMode": {
+                    "toggled": false,
+                    "value": null
+                },
+                "OnlyTargeted": false,
+                "Range": 100.0
+            },
+            "MapTeleport": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Key": 89
+            },
+            "NoCD": {
+                "InstantBow": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Sprint": {
+                    "toggled": false,
+                    "value": null
+                },
+                "UtimateMaxEnergy": {
+                    "toggled": false,
+                    "value": null
+                }
+            },
+            "NoClip": {
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "NoAnimation": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Speed": 17.399999618530273
+            },
+            "OculiTeleport": {
+                "Key": 40
+            },
+            "OpenTeam": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "QuestTeleport": {
+                "Key": 78,
+                "QuestTP": {
+                    "toggled": true,
+                    "value": null
+                }
+            },
+            "RapidFire": {
+                "Enabled": {
+                    "toggled": true,
+                    "value": null
+                },
+                "MultiHit": {
+                    "toggled": true,
+                    "value": null
+                },
+                "Multiplier": 3
+            },
+            "Settings": {
+                "Language": {
+                    "Language": "SimplifiedChinese"
+                }
+            },
+            "SkinModifier": {
+                "Ayaka_SpringbloomMissive": true,
+                "Barbara_SummertimeSparkle": true,
+                "Diluc_RedDeadOfNight": true,
+                "Enabled": {
+                    "toggled": false,
+                    "value": null
+                },
+                "Keqing_OpulentSplendor": true,
+                "Lisa_ASobriquetUnderShade": true,
+                "Mona_PactOfStarsandMoon": true
+            },
+            "SkipEnhanceAnimation": {
+                "Enabled": true
+            },
+            "Visuals": {
+                "CameraZoom": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "ChestIndicator": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "EnablePeeking": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "HideUI": {
+                    "Enabled": {
+                        "toggled": false,
+                        "value": null
+                    }
+                },
+                "NoFog": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "PaimonFollow": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    }
+                },
+                "ProfileChanger": {
+                    "Enabled": {
+                        "toggled": true,
+                        "value": null
+                    },
+                    "UID": {
+                        "toggled": true,
+                        "value": "114514"
+                    },
+                    "UIDWaterMarkPrefix": true
+                },
+                "ShowSkillCD": {
+                    "Enabled": true
+                }
+            }
+        }
+    },
+    "shared": {
+        "General": {
+            "WaitDelayInit": {
+                "InitializationDelay": 35000
+            }
+        },
+        "InteractiveMap": {
+            "LastUserID": 175604747,
+            "accounts": {
+                "239110302": {
+                    "completed_points": {
+                        "3": {
+                            "17": [
+                                {
+                                    "complete_timestamp": 1672453857970,
+                                    "point_id": 517
+                                },
+                                {
+                                    "complete_timestamp": 1672453886418,
+                                    "point_id": 539
+                                },
+                                {
+                                    "complete_timestamp": 1672453736465,
+                                    "point_id": 544
+                                },
+                                {
+                                    "complete_timestamp": 1672454059079,
+                                    "point_id": 577
+                                },
+                                {
+                                    "complete_timestamp": 1672453849793,
+                                    "point_id": 578
+                                },
+                                {
+                                    "complete_timestamp": 1672453845719,
+                                    "point_id": 586
+                                },
+                                {
+                                    "complete_timestamp": 1672453821393,
+                                    "point_id": 625
+                                },
+                                {
+                                    "complete_timestamp": 1672453981504,
+                                    "point_id": 637
+                                },
+                                {
+                                    "complete_timestamp": 1672454308833,
+                                    "point_id": 677
+                                },
+                                {
+                                    "complete_timestamp": 1672453861521,
+                                    "point_id": 726
+                                },
+                                {
+                                    "complete_timestamp": 1672453899098,
+                                    "point_id": 743
+                                },
+                                {
+                                    "complete_timestamp": 1672454175483,
+                                    "point_id": 748
+                                },
+                                {
+                                    "complete_timestamp": 1672454073002,
+                                    "point_id": 760
+                                },
+                                {
+                                    "complete_timestamp": 1672454105849,
+                                    "point_id": 770
+                                },
+                                {
+                                    "complete_timestamp": 1672454129031,
+                                    "point_id": 779
+                                },
+                                {
+                                    "complete_timestamp": 1672454047403,
+                                    "point_id": 782
+                                },
+                                {
+                                    "complete_timestamp": 1672454102873,
+                                    "point_id": 783
+                                },
+                                {
+                                    "complete_timestamp": 1672454159871,
+                                    "point_id": 787
+                                },
+                                {
+                                    "complete_timestamp": 1672454034788,
+                                    "point_id": 792
+                                },
+                                {
+                                    "complete_timestamp": 1672454109315,
+                                    "point_id": 793
+                                },
+                                {
+                                    "complete_timestamp": 1672454069666,
+                                    "point_id": 803
+                                },
+                                {
+                                    "complete_timestamp": 1672454082456,
+                                    "point_id": 831
+                                },
+                                {
+                                    "complete_timestamp": 1672454096775,
+                                    "point_id": 835
+                                },
+                                {
+                                    "complete_timestamp": 1672453970629,
+                                    "point_id": 837
+                                },
+                                {
+                                    "complete_timestamp": 1672454062959,
+                                    "point_id": 848
+                                },
+                                {
+                                    "complete_timestamp": 1672454280709,
+                                    "point_id": 861
+                                },
+                                {
+                                    "complete_timestamp": 1672454244591,
+                                    "point_id": 863
+                                },
+                                {
+                                    "complete_timestamp": 1672454008596,
+                                    "point_id": 880
+                                },
+                                {
+                                    "complete_timestamp": 1672454014794,
+                                    "point_id": 889
+                                },
+                                {
+                                    "complete_timestamp": 1672454232730,
+                                    "point_id": 911
+                                },
+                                {
+                                    "complete_timestamp": 1672454178191,
+                                    "point_id": 923
+                                },
+                                {
+                                    "complete_timestamp": 1672454278288,
+                                    "point_id": 936
+                                },
+                                {
+                                    "complete_timestamp": 1672453818438,
+                                    "point_id": 3629
+                                },
+                                {
+                                    "complete_timestamp": 1672453842053,
+                                    "point_id": 3630
+                                },
+                                {
+                                    "complete_timestamp": 1672453823965,
+                                    "point_id": 3631
+                                },
+                                {
+                                    "complete_timestamp": 1672454163120,
+                                    "point_id": 3632
+                                },
+                                {
+                                    "complete_timestamp": 1672454079525,
+                                    "point_id": 3634
+                                },
+                                {
+                                    "complete_timestamp": 1672453917198,
+                                    "point_id": 3641
+                                },
+                                {
+                                    "complete_timestamp": 1672453984590,
+                                    "point_id": 3646
+                                },
+                                {
+                                    "complete_timestamp": 1672454122588,
+                                    "point_id": 7076
+                                },
+                                {
+                                    "complete_timestamp": 1672289950561,
+                                    "point_id": 12359
+                                },
+                                {
+                                    "complete_timestamp": 1672289955205,
+                                    "point_id": 12363
+                                },
+                                {
+                                    "complete_timestamp": 1672289965419,
+                                    "point_id": 12366
+                                },
+                                {
+                                    "complete_timestamp": 1672289961801,
+                                    "point_id": 13375
+                                },
+                                {
+                                    "complete_timestamp": 1672454099711,
+                                    "point_id": 15787
+                                },
+                                {
+                                    "complete_timestamp": 1672454020907,
+                                    "point_id": 15834
+                                }
+                            ],
+                            "194": [
+                                {
+                                    "complete_timestamp": 1672289915930,
+                                    "point_id": 12841
+                                }
+                            ],
+                            "44": [
+                                {
+                                    "complete_timestamp": 1672453883653,
+                                    "point_id": 503
+                                },
+                                {
+                                    "complete_timestamp": 1672453962631,
+                                    "point_id": 541
+                                },
+                                {
+                                    "complete_timestamp": 1672454172503,
+                                    "point_id": 671
+                                },
+                                {
+                                    "complete_timestamp": 1672453896126,
+                                    "point_id": 733
+                                },
+                                {
+                                    "complete_timestamp": 1672453909988,
+                                    "point_id": 761
+                                },
+                                {
+                                    "complete_timestamp": 1672454116569,
+                                    "point_id": 789
+                                },
+                                {
+                                    "complete_timestamp": 1672453937132,
+                                    "point_id": 806
+                                },
+                                {
+                                    "complete_timestamp": 1672454287940,
+                                    "point_id": 818
+                                },
+                                {
+                                    "complete_timestamp": 1672454090379,
+                                    "point_id": 830
+                                },
+                                {
+                                    "complete_timestamp": 1672454271665,
+                                    "point_id": 857
+                                },
+                                {
+                                    "complete_timestamp": 1672454356213,
+                                    "point_id": 1058
+                                },
+                                {
+                                    "complete_timestamp": 1672453385192,
+                                    "point_id": 2147
+                                },
+                                {
+                                    "complete_timestamp": 1672453465082,
+                                    "point_id": 2148
+                                },
+                                {
+                                    "complete_timestamp": 1672453497992,
+                                    "point_id": 2153
+                                },
+                                {
+                                    "complete_timestamp": 1672453924825,
+                                    "point_id": 3654
+                                },
+                                {
+                                    "complete_timestamp": 1672454157522,
+                                    "point_id": 6590
+                                },
+                                {
+                                    "complete_timestamp": 1672455526554,
+                                    "point_id": 6617
+                                },
+                                {
+                                    "complete_timestamp": 1672455730441,
+                                    "point_id": 7432
+                                },
+                                {
+                                    "complete_timestamp": 1672454031343,
+                                    "point_id": 11924
+                                },
+                                {
+                                    "complete_timestamp": 1672289919924,
+                                    "point_id": 12484
+                                }
+                            ],
+                            "45": [
+                                {
+                                    "complete_timestamp": 1672453837227,
+                                    "point_id": 543
+                                },
+                                {
+                                    "complete_timestamp": 1672455520154,
+                                    "point_id": 6525
+                                }
+                            ],
+                            "6": [
+                                {
+                                    "complete_timestamp": 1672453491750,
+                                    "point_id": 166
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "PatternScanner": {
+            "m_CheckSumTimestamp": {
+                "UnityPlayer.dll": 133178221660000000,
+                "UserAssembly.dll": 133178221660000000
+            }
+        }
+    }
+}
