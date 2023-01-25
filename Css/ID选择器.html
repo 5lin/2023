@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ID选择器</title>
 </head>
+
 <body>
 
-<!--id使用#调用，并且只能使用一次，经测试，不止一次，但是尽量一次。避免冲突。-->
+    <!--id使用#调用，并且只能使用一次，经测试，不止一次，但是尽量一次。避免冲突。-->
 
-<style>
+    <style>
+        #mumu {
+            color: red;
+        }
 
-#mumu{                                         
-    color: red;  
-}
+        #test {
+            color: yellow
+        }
+    </style>
 
-#test{
-    color:yellow
-}
-</style>
+    <div id="mumu">我是木木</div>
 
-<div id="mumu">我是木木</div>
-
-<div id="mumu">对于第二个标签测试</div>
-<span id="mumu">测试一下？</span>
+    <div id="mumu">对于第二个标签测试</div>
+    <span id="mumu">测试一下？</span>
 </body>
+
 </html>

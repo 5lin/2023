@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>font-family设置字体</title>
 </head>
+
 <body>
-<!--使用字体的英文名称进行引用兼容性更好，国际通用。-->
-<!--多字体的意义是，当第一种字体用户电脑不存在时就调用第二种字体，以此类推。-->
-<!--例如微软雅黑这种字体，有空格的需要用''号引起来，多字体格式font-family:A,B,C,D;  -->
-<!--chrome浏览器默认字体大小为16px，默认字体为微软雅黑-->
-<style>
-span{
-    font-family: sans-serif;
-    font-size: 25px;
-}
-div{
-    font-family: '宋体';
-    font-size: 25px;
-}
-</style>
-<span>This is a sentence by sans-serif,这是一段Sans-serif字体并设置了字体为25px</span>
-<div>This is a sentence by Microsoft YaHei,这是一段宋体的字体并设置了字体为25px</div>
+    <!--使用字体的英文名称进行引用兼容性更好，国际通用。-->
+    <!--多字体的意义是，当第一种字体用户电脑不存在时就调用第二种字体，以此类推。-->
+    <!--例如微软雅黑这种字体，有空格的需要用''号引起来，多字体格式font-family:A,B,C,D;  -->
+    <!--chrome浏览器默认字体大小为16px，默认字体为微软雅黑-->
+    <style>
+        span {
+            font-family: sans-serif;
+            font-size: 25px;
+        }
+
+        div {
+            font-family: '宋体';
+            font-size: 25px;
+        }
+    </style>
+    <span>This is a sentence by sans-serif,这是一段Sans-serif字体并设置了字体为25px</span>
+    <div>This is a sentence by Microsoft YaHei,这是一段宋体的字体并设置了字体为25px</div>
 </body>
+
 </html>
