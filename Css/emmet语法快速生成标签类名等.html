@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmett语法快速生成标签类名等</title>
+    <title>Emmet语法快速生成标签类名等</title>
 </head>
+
 <body>
-    
-<!-- .nav加回车或者tab键可以生成类名↓ -->
-<div class="nav"></div>
 
-<!-- 同理#nav加回车或者tab键可以生成id名↓ -->
-<div id="nav"></div>
+    <!-- .nav加回车或者tab键可以生成类名↓ -->
+    <div class="nav"></div>
 
-<!-- 如果需要给某个标签加上类的话，你可以试试类似这样的  p.one 并按tab或者回车  生成了one类的p标签-->
-<p class="one"></p>
+    <!-- 同理#nav加回车或者tab键可以生成id名↓ -->
+    <div id="nav"></div>
 
-<!-- 父子级关系的标签可以用 > 号，例如下面 h1>h2 即是表示，h1是h2的父级标签，又称h2包含于h1 -->
-<h1>
-    <h2></h2>
-</h1>
+    <!-- 如果需要给某个标签加上类的话，你可以试试类似这样的  p.one 并按tab或者回车  生成了one类的p标签-->
+    <p class="one"></p>
 
-<!-- 生成的div类名带有顺序，可以使用自增符号$ (在英文状态按shift+4) 例如 .demo$*5 补全后会产生下面的效果，在demo后面加上顺序-->
-<div class="demo1"></div>
-<div class="demo2"></div>
-<div class="demo3"></div>
-<div class="demo4"></div>
-<div class="demo5"></div>
-<!--id同理可以使用，#demo$*5可以生成如下效果-->
-<div id="demo1"></div>
-<div id="demo2"></div>
-<div id="demo3"></div>
-<div id="demo4"></div>
-<div id="demo5"></div>
+    <!-- 父子级关系的标签可以用 > 号，例如下面 h1>h2 即是表示，h1是h2的父级标签，又称h2包含于h1 -->
+    <h1>
+        <h2></h2>
+    </h1>
 
-<!-- 如果想在生成的标签内写上内容，可以用“标签{内容}”表示 例如span{我想做测试}，可以生成如下效果 -->
-<span>我想做测试</span>
+    <!-- 生成的div类名带有顺序，可以使用自增符号$ (在英文状态按shift+4) 例如 .demo$*5 补全后会产生下面的效果，在demo后面加上顺序-->
+    <div class="demo1"></div>
+    <div class="demo2"></div>
+    <div class="demo3"></div>
+    <div class="demo4"></div>
+    <div class="demo5"></div>
+    <!--id同理可以使用，#demo$*5可以生成如下效果-->
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+    <div id="demo3"></div>
+    <div id="demo4"></div>
+    <div id="demo5"></div>
 
-<!-- 那么例如div{$}*5可以生成如下 -->
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
+    <!-- 如果想在生成的标签内写上内容，可以用“标签{内容}”表示 例如span{我想做测试}，可以生成如下效果 -->
+    <span>我想做测试</span>
+
+    <!-- 那么例如div{$}*5可以生成如下 -->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
 
 </body>
+
 </html>
