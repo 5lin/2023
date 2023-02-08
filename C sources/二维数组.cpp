@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int a[4][5] ={1,2,3,4,5}; //¿´¿´»á²»»áÂÒÂë,²âÊÔgit¹¦ÄÜ£¬20µã03·Ö²âÊÔvscode on proxy
+	int a[4][5] ={1,2,3,4,5}; //çœ‹çœ‹ä¼šä¸ä¼šä¹±ç ,æµ‹è¯•gitåŠŸèƒ½ï¼Œ20ç‚¹03åˆ†æµ‹è¯•vscode on proxy
 	int i,j;
 	for(i=0;i<4;i++)
 	{
