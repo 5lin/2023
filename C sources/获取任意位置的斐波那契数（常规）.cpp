@@ -16,6 +16,5 @@ int main(){
 		}
 	}
 	printf("fbo=%d\n",c);
-	
 }
 
