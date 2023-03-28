@@ -1,6 +1,5 @@
 	#include <stdio.h>
 	#include <math.h>
-	
 	int main() {
 	    float a = 1, b = -3, c = -1; // 一元二次方程的系数
 	    float delta = b * b - 4 * a * c; // 计算判别式
