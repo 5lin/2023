@@ -7,7 +7,7 @@ int main() {
     int i, len;
     int flag = 1;
 
-    printf("ÇëÊäÈë×Ö·û´®£º");
+    printf("è¯·è¾“å…¥å­—ç¬¦ä¸²ï¼š");
     scanf("%s", str);
 
     len = strlen(str);
@@ -20,9 +20,9 @@ int main() {
     }
 
     if (flag) {
-        printf("ÕâÊÇÒ»¸ö»ØÎÄ´®\n");
+        printf("è¿™æ˜¯ä¸€ä¸ªå›æ–‡ä¸²\n");
     } else {
-        printf("Õâ²»ÊÇÒ»¸ö»ØÎÄ´®\n");
+        printf("è¿™ä¸æ˜¯ä¸€ä¸ªå›æ–‡ä¸²\n");
     }
 
     return 0;

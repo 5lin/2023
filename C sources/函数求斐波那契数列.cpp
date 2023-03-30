@@ -2,23 +2,23 @@
 int calfbo(int,int,int);
 int main(){
 	int fbo;		
-	printf("ÇëÎÊÄãĞèÒªÇóµÚ¼¸Î»ì³²¨ÄÇÆõÊı£¿\n");		//1,1,2,3,5,8,13
+	printf("è¯·é—®ä½ éœ€è¦æ±‚ç¬¬å‡ ä½æ–æ³¢é‚£å¥‘æ•°ï¼Ÿ\n");		//1,1,2,3,5,8,13
 	scanf("%d",&fbo);
 	if(fbo==1||fbo==2)
 	{
 		fbo=1;
 	}
 	else{
-	//fbo=3¡·¡·ì³²¨ÄÇÆõ=2 				//1,1,2,3,5,8,13
+	//fbo=3ã€‹ã€‹æ–æ³¢é‚£å¥‘=2 				//1,1,2,3,5,8,13
 		fbo=calfbo(1,1,fbo-2);
 	}
-	printf("ÄãËùÇóµÄì³²¨ÄÇÆõÊıÊÇ£º%d\n",fbo);
+	printf("ä½ æ‰€æ±‚çš„æ–æ³¢é‚£å¥‘æ•°æ˜¯ï¼š%d\n",fbo);
 }
 
 //calfbo-detail-function  
 int calfbo(int a,int b,int count){
 	count--;
-	//	ÈıÄ¿ÔËËã·û   countÓÃÀ´¼ÆËãËùĞè´ÎÊı 
+	//	ä¸‰ç›®è¿ç®—ç¬¦   countç”¨æ¥è®¡ç®—æ‰€éœ€æ¬¡æ•° 
 //	printf("a=%d b=%d count=%d\n",a,b,count);
 	return count != 0 ? calfbo(b,a+b,count) : a+b;
 }

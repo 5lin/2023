@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/C语言函数（方法)示例.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/c语言输入图形金字塔.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/test.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/三个数倒序排列.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/二维数组的逆转.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/函数参数和返回.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/平年和闰年的判断1.0.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/递归法求任意斐波那契数列.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/C语言函数（方法)示例.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/const指针问题.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c语言输入图形金字塔.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/三个数倒序排列.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/二级（多级指针.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/二维数组的逆转.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/冒泡排序.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/函数参数和返回.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/函数求斐波那契数列.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/回文串判断.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/多项式链表.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/字符串匹配KMP算法.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/寻找1000内水仙花数（for循环解法）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/寻找1000内的水仙花数.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/寻找1000内的水仙花数（while循环解法）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/平年和闰年的判断1.0.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/快速排序.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/批量处理.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针与数组.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针中的二维数组.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针入门.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针入门（2）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针入门（3）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针入门（4）交换.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针函数与函数指针（一）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针函数与函数指针（二）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针数组.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针数组的二级指针.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针数组（二）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针的自增和自减.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/指针表示法来操作指针.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/数组指针.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/特殊的const指针.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/盘子问题.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/空心金字塔.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/结构体数组和指针.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/结构体的定义.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/自增运算符.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/获取任意位置的斐波那契数(数组法).cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/获取任意位置的斐波那契数（常规）.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/选择排序.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/递归法求任意斐波那契数列.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/阶乘.cpp" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

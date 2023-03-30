@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-void quickSort(int arr[], int left, int right){  //arrÊÇÊı×é£¬leftÊÇÆğÊ¼ÏÂ±ê£¬rightÊÇ½áÊøÏÂ±ê
-    //ÇëÊµÏÖÕâÒ»²¿·Ö
+void quickSort(int arr[], int left, int right){  //arræ˜¯æ•°ç»„ï¼Œleftæ˜¯èµ·å§‹ä¸‹æ ‡ï¼Œrightæ˜¯ç»“æŸä¸‹æ ‡
+    //è¯·å®ç°è¿™ä¸€éƒ¨åˆ†
 }
 
 int main() {
     int arr[] = {4, 3, 8, 2, 1, 7, 5, 6, 9, 0};
-    quickSort(arr, 0, 9);  //10¸öÊı×ÖÏÂ±ê¾ÍÊÇ0-9
+    quickSort(arr, 0, 9);  //10ä¸ªæ•°å­—ä¸‹æ ‡å°±æ˜¯0-9
     for (int i = 0; i < 10; ++i) {
         printf("%d ", arr[i]);
     }

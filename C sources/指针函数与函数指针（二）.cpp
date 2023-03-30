@@ -4,11 +4,11 @@ int sum(int (*p)(int, int), int a, int b){
     return p(a, b);
 }
 
-int sumImpl(int a, int b){   //这个函数实现了a + b
+int sumImpl(int a, int b){   //杩欎釜鍑芥暟瀹炵幇浜哸 + b
     return a + b;
 }
 
 int main(){
-    int (*p)(int, int) = sumImpl;  //拿到实现那个函数的地址
+    int (*p)(int, int) = sumImpl;  //鎷垮埌瀹炵幇閭ｄ釜鍑芥暟鐨勫湴鍧�
     printf("%d", sum(p, 10, 20));  
 }

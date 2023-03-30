@@ -2,7 +2,7 @@
 int main()
 {
 	int a,b,c,max;
-	printf("请输入三个数字\n");
+	printf("璇疯緭鍏ヤ笁涓暟瀛梊n");
 	scanf("%d,%d,%d",&a,&b,&c);
 	max=a;
 	if(max<b){
@@ -20,6 +20,6 @@ int main()
 		c=b;
 		b=max;
 	}
-	printf("此时按顺序排列应当为%d,%d,%d\n",a,b,c); //a>b>c
+	printf("姝ゆ椂鎸夐『搴忔帓鍒楀簲褰撲负%d,%d,%d\n",a,b,c); //a>b>c
 }
 

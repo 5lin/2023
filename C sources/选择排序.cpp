@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-	void show(int a[]);		//¶¨Òå·½·¨ 
+	void show(int a[]);		//å®šä¹‰æ–¹æ³• 
 	int a[10] = {3,1,9,6,4,2,0,5,8,7};
 	int min,n;
-	/*Ñ¡ÔñÅÅĞò*/
+	/*é€‰æ‹©æ’åº*/
 	for(int i=0;i<9;i++){
 		min = a[i];
 		for(int j = i;j<10;j++){
@@ -16,7 +16,7 @@ int main(){
 		a[i] = min;
 		show(a);
 	}
-//	show(a);	·½·¨µÄ¾ßÌå¶¨Òå 
+//	show(a);	æ–¹æ³•çš„å…·ä½“å®šä¹‰ 
 }
 void show(int a[]){
 	printf("//");

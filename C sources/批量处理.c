@@ -33,6 +33,6 @@ int main(int argc, char *argv[]) {
 
     fclose(input_file);
     fclose(output_file);
-	printf("您的规则应该已经转换好了，您可以查看您的txt文件");
+	printf("鎮ㄧ殑瑙勫垯搴旇宸茬粡杞崲濂戒簡锛屾偍鍙互鏌ョ湅鎮ㄧ殑txt鏂囦欢");
     return 0;
 }

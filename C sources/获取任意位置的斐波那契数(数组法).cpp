@@ -4,7 +4,7 @@ int main()
 	int a[3]= {1,1,0};				// 1,1,2,3,5,8,13
 	int target=0,result=0,num=2;
 
-	printf("请输入想获取的斐波那契数:");
+	printf("璇疯緭鍏ユ兂鑾峰彇鐨勬枑娉㈤偅濂戞暟:");
 	scanf("%d",&target);
 	if(target==1||target == 2){
 		result=1;

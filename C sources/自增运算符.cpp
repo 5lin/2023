@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
 	int a=10;
-	int b= ++a;  //  ++aµÈ¼ÛÓÚ  a=a+1 
-	printf("´ËÊ±µÄbÊÇ%d\n",b);
+	int b= ++a;  //  ++aç­‰ä»·äºŽ  a=a+1 
+	printf("æ­¤æ—¶çš„bæ˜¯%d\n",b);
 	int c=50;
-	int d=c++;	//	ºÍÐ´ÔÚÇ°ÃæµÄÇø±ðÊÇ£¬ËüÊÇÏÈ·µ»Øµ±Ç°±äÁ¿µÄ½á¹û£¬ÔÙ½øÐÐ×ÔÔöµÄ£¬Ë³ÐòÊÇÍêÈ«Ïà·´µÄ.
-	printf("´ËÊ±µÄDÊÇ%d\n",d);
-	printf("´ËÊ±µÄCÊÇ%d\n",c);
+	int d=c++;	//	å’Œå†™åœ¨å‰é¢çš„åŒºåˆ«æ˜¯ï¼Œå®ƒæ˜¯å…ˆè¿”å›žå½“å‰å˜é‡çš„ç»“æžœï¼Œå†è¿›è¡Œè‡ªå¢žçš„ï¼Œé¡ºåºæ˜¯å®Œå…¨ç›¸åçš„.
+	printf("æ­¤æ—¶çš„Dæ˜¯%d\n",d);
+	printf("æ­¤æ—¶çš„Cæ˜¯%d\n",c);
 	
-//	×Ü½á£º++ÔÚÇ°£¬ÄÇÃ´ÏÈ×ÔÔöÔÙ³ö½á¹û£»£¬++ÔÚºó£¬ÄÇÃ´ÏÈ³ö½á¹ûÔÙ×ÔÔö¡£ 
+//	æ€»ç»“ï¼š++åœ¨å‰ï¼Œé‚£ä¹ˆå…ˆè‡ªå¢žå†å‡ºç»“æžœï¼›ï¼Œ++åœ¨åŽï¼Œé‚£ä¹ˆå…ˆå‡ºç»“æžœå†è‡ªå¢žã€‚ 
 } 

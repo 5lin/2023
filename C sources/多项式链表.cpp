@@ -3,14 +3,14 @@
 
 typedef struct PolyNode *Polynomial;
 struct PolyNode {
-    int coef;       // ÏµÊı
-    int expon;      // Ö¸Êı
-    Polynomial next;    // ÏÂÒ»¸ö½Úµã
+    int coef;       // ç³»æ•°
+    int expon;      // æŒ‡æ•°
+    Polynomial next;    // ä¸‹ä¸€ä¸ªèŠ‚ç‚¹
 };
 
-Polynomial ReadPoly();      // ¶ÁÈë¶àÏîÊ½
-Polynomial AddPoly(Polynomial P1, Polynomial P2);    // ¶àÏîÊ½¼Ó·¨
-void PrintPoly(Polynomial P);      // Êä³ö¶àÏîÊ½
+Polynomial ReadPoly();      // è¯»å…¥å¤šé¡¹å¼
+Polynomial AddPoly(Polynomial P1, Polynomial P2);    // å¤šé¡¹å¼åŠ æ³•
+void PrintPoly(Polynomial P);      // è¾“å‡ºå¤šé¡¹å¼
 
 int main()
 {

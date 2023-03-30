@@ -3,18 +3,18 @@ int main()
 {
 	int years;
 	while(true){
-	printf("please input a year£º");
+	printf("please input a yearï¼š");
 	scanf("%d",&years);
 	if(years%400==0||years%100==0||years%4==0)
-	printf("´ËÄêÊÇÈóÄê\n");
+	printf("æ­¤å¹´æ˜¯æ¶¦å¹´\n");
 	else
-	printf("´ËÄê²»ÊÇÈóÄê\n");
+	printf("æ­¤å¹´ä¸æ˜¯æ¶¦å¹´\n");
 	char Y,N,next;
-	printf("\nÊÇ·ñ¼ÌĞøÅĞ¶Ï£¿£¨Y/N)£º");
+	printf("\næ˜¯å¦ç»§ç»­åˆ¤æ–­ï¼Ÿï¼ˆY/N)ï¼š");
 	fflush(stdin);
 	scanf("%c",&next);
 	if(next=='Y'||next=='y')
-	printf("\n¼ÌĞøÅĞ¶Ï\n");
+	printf("\nç»§ç»­åˆ¤æ–­\n");
 	if(next=='N'||next=='n')
 	return 0;
 }

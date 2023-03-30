@@ -2,17 +2,17 @@
 int calfbo(int,int,int);
 int main(){
 	int fbo;		
-	printf("ÇëÎÊÄãÐèÒªÇóµÚ¼¸Î»ì³²¨ÄÇÆõÊý£¿\n");		//1,1,2,3,5,8,13
+	printf("è¯·é—®ä½ éœ€è¦æ±‚ç¬¬å‡ ä½æ–æ³¢é‚£å¥‘æ•°ï¼Ÿ\n");		//1,1,2,3,5,8,13
 	scanf("%d",&fbo);
 	if(fbo==1||fbo==2)
 	{
 		fbo=1;
-		printf("ÄãËùÇóµÄì³²¨ÄÇÆõÊýÊÇ£º%d\n",fbo);
+		printf("ä½ æ‰€æ±‚çš„æ–æ³¢é‚£å¥‘æ•°æ˜¯ï¼š%d\n",fbo);
 	}
 	else{
-	//fbo=3¡·¡·ì³²¨ÄÇÆõ=2 				//1,1,2,3,5,8,13
+	//fbo=3ã€‹ã€‹æ–æ³¢é‚£å¥‘=2 				//1,1,2,3,5,8,13
 		fbo=calfbo(1,1,fbo-2);
-		printf("ÄãËùÇóµÄì³²¨ÄÇÆõÊýÊÇ£º%d\n",fbo);
+		printf("ä½ æ‰€æ±‚çš„æ–æ³¢é‚£å¥‘æ•°æ˜¯ï¼š%d\n",fbo);
 	}
 }
 

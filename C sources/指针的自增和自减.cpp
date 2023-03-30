@@ -4,7 +4,7 @@ int main(){
     char str[] = "Hello World!";
     char * p = str;
 
-    p++;  //自增后相当于指针指向了第二个元素的地址
+    p++;  //鑷鍚庣浉褰撲簬鎸囬拡鎸囧悜浜嗙浜屼釜鍏冪礌鐨勫湴鍧�
 
-    printf("%c", *p);   //所以这里打印的就是第二个元素的值了
+    printf("%c", *p);   //鎵�浠ヨ繖閲屾墦鍗扮殑灏辨槸绗簩涓厓绱犵殑鍊间簡
 }
