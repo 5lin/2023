@@ -21,8 +21,7 @@ else
 printf(" ");
 }
 }
-printf("\n"); 
+
 }
-getchar(); 
-return 0;
+
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2023.iml" filepath="$PROJECT_DIR$/2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Static-method/Static-method.iml" filepath="$PROJECT_DIR$/Static-method/Static-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swap-value/Swap-value.iml" filepath="$PROJECT_DIR$/Swap-value/Swap-value.iml" />
+      <module fileurl="file://$PROJECT_DIR$/building in java/building in java.iml" filepath="$PROJECT_DIR$/building in java/building in java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/count-table-9x9/count-table-9x9.iml" filepath="$PROJECT_DIR$/count-table-9x9/count-table-9x9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/face-to-object/face-to-object.iml" filepath="$PROJECT_DIR$/face-to-object/face-to-object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbo-1/fbo-1.iml" filepath="$PROJECT_DIR$/fbo-1/fbo-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbo-2/fbo-2.iml" filepath="$PROJECT_DIR$/fbo-2/fbo-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbo-3/fbo-3.iml" filepath="$PROJECT_DIR$/fbo-3/fbo-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-count-understanding/self-count-understanding.iml" filepath="$PROJECT_DIR$/self-count-understanding/self-count-understanding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort-java/sort-java.iml" filepath="$PROJECT_DIR$/sort-java/sort-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
