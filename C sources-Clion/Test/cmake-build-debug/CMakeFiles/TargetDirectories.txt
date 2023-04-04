@@ -1,0 +1,3 @@
+/mnt/d/Lin's Code/2023/C sources-Clion/Test/cmake-build-debug/CMakeFiles/Test.dir
+/mnt/d/Lin's Code/2023/C sources-Clion/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Lin's Code/2023/C sources-Clion/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
